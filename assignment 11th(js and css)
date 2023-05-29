@@ -1,0 +1,107 @@
+javascript code!
+
+function convert(){
+    let firstname=(document.getElementById("firstname").value)
+    let result=document.getElementById("result")
+    result.innerHTML=firstname;
+
+    let lastname=(document.getElementById("lastname").value)
+    let result1=document.getElementById("result1")
+    result1.innerHTML=lastname;
+
+    let address=(document.getElementById("address").value)
+    let result2=document.getElementById("result2")
+    result2.innerHTML=address;
+
+    let pincode=(document.getElementById("pincode").value)
+    let result3=document.getElementById("result3")
+    result3.innerHTML=pincode;
+    
+    let gender=(document.getElementById("gender").value)
+    let result4=document.getElementById("result4")
+    result4.innerHTML=gender;
+
+    let food=(document.getElementById("food").value)
+    let result5=document.getElementById("result5")
+    result5.innerHTML=food;
+
+    let state=(document.getElementById("state").value)
+    let result6=document.getElementById("result6")
+    result6.innerHTML=state;
+
+    let country=(document.getElementById("country").value)
+    let result7=document.getElementById("result7")
+    result7.innerHTML=country;
+    
+}
+
+firstname.reset();
+lastname.reset();
+address.reset();
+pincode.reset();
+gender.reset();
+food.reset();
+state.reset();
+country.reset();
+
+
+css!
+body{
+    background-color: #24c7dc;
+    width:50%;
+    height:50%;
+}
+
+div{
+    font-style:italic;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+table{
+    margin:50px auto;
+    border-collapse:separate;
+    border-spacing:10px
+    
+}
+
+tr{
+    display:table;
+    width:80%;
+    margin:10px auto;
+    font-family:sans-serif;
+    background:transparent;
+    padding:12px 0;
+    color:#c70c0c;
+    font-size:13px;
+    box-shadow: 0 1px 4px 0 #083adfe8;
+}
+
+input,textarea{
+    background-color:aliceblue;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    left:25%;
+    top:0%;
+    transform:translate(-50%,-50%);
+    width:200px;
+    height:30px;
+    font-size:16px;
+    font-style:georgia;  
+    
+}
+
+button{
+    height:40px;
+    width:100px;
+}
+
+textarea{
+    height:60px;
+}
+
+td{
+    color:black
+}
+
